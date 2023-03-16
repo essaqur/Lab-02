@@ -4,7 +4,7 @@
 
 - [x] 1. Создайте пустой репозиторий на сервисе github.com (или gitlab.com, или bitbucket.com).
  ```sh
-https://github.com/essaqur/Lab-02/t
+https://github.com/essaqur/Lab-02/
  ```
 - [x] 2. Выполните инструкцию по созданию первого коммита на странице репозитория, созданного на предыдещем шаге.
  ```sh
