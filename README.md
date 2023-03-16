@@ -22,7 +22,7 @@ $ cat > "Hello world.cpp" << EOF
  #include <iostream>
  
  using namespace std;
- int main(int argc, char** argv){
+ int main(){
   cout << "Hello world" << endl;
  }
  EOF
