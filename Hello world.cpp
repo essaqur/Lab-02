@@ -1,8 +1,9 @@
 #include <iostream>
 
-using namespace std;
-int main(){
-  string name;
-  cin >> name;
-  cout << "Hello world from " << name << endl;
- }
+int
+main()
+{
+  std::string name;
+  std::cin >> name;                                 // Ввод ывафыва юывапюаывюБЮ ю,,,
+  std::cout << "Hello world from " << name << endl; // Выsdfsadf имени
+}
