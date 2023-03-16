@@ -43,7 +43,7 @@ $ git commit -m "Added new cpp file"
   #include <string>
   
   using namespace std;
-  int main(int argc, char** argv){
+  int main(){
    string name;
    cin >> name;
    cout << "Hello world from " << name << endl;
@@ -72,7 +72,7 @@ $ edit "Hello world.cpp"
  #include <iostream>
  #include <string>
   
- int main(int argc, char** argv){
+ int main(){
   string name;
   std::cin >> name;
   std::cout << "Hello world from " << name << std::endl;
@@ -138,8 +138,8 @@ $ git push -u origin patch2
  #include <iostream>
  #include <string>
   
- int main(int argc, char** argv){
-  string name; \\ User n.
+ int main(){
+  string name; 
   std::cin >> name; \\ Ввод данных
   std::cout << "Hello world from " << name << std::endl;
  }  
@@ -147,11 +147,6 @@ $ git push -u origin patch2
 - [x] 5. Убедитесь, что в pull-request появились *конфликтны*.
 - [x] 6. Для этого локально выполните **pull** + **rebase** (точную последовательность команд, следует узнать самостоятельно). **Исправьте конфликты**.
  ```sh
-$ git pull origin master
-$ git rebase master
-$ edit "Hello world.cpp"
-$ git commit -a -m "Update Hello world.cpp"
-$ git rebase --continue
  ```
 - [x] 7. Сделайте *force push* в ветку `patch2`
  ```sh
