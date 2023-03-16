@@ -4,7 +4,7 @@
 
 - [x] 1. Создайте пустой репозиторий на сервисе github.com (или gitlab.com, или bitbucket.com).
  ```sh
- https://github.com/Robert29000/timp-lab-02
+https://github.com/essaqur/Lab-02/t
  ```
 - [x] 2. Выполните инструкцию по созданию первого коммита на странице репозитория, созданного на предыдещем шаге.
  ```sh
@@ -91,8 +91,8 @@ $ edit "Hello world.cpp"
  #include <iostream>
  #include <string>
   
- int main(int argc, char** argv){
-  string name; \\ User name
+ int main(){
+  string name; 
   std::cin >> name; \\ Input user name
   std::cout << "Hello world from " << name << std::endl;
  } 
